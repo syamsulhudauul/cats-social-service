@@ -11,7 +11,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	sqlx "github.com/jmoiron/sqlx"
-	model "github.com/thoriqulumar/cats-social-service-w1/internal/app/model"
+	model "github.com/syamsulhudauul/cats-social-service/internal/app/model"
 )
 
 // Mockrepository is a mock of repository interface.

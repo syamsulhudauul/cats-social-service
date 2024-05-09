@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/delivery"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/delivery"
 )
 
 func initRouter(h *delivery.Handler, authMiddleware gin.HandlerFunc) {

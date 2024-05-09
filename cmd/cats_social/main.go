@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/config"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/delivery"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/repository"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/service"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/middleware"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/pkg/log"
-	"github.com/thoriqulumar/cats-social-service-w1/pkg/version"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/config"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/delivery"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/repository"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/service"
+	"github.com/syamsulhudauul/cats-social-service/internal/middleware"
+	"github.com/syamsulhudauul/cats-social-service/internal/pkg/log"
+	"github.com/syamsulhudauul/cats-social-service/pkg/version"
 	"go.uber.org/zap/zapcore"
 )
 

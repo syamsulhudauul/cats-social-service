@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/config"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/config"
 	"go.uber.org/zap"
 )
 

@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/pkg/converter"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/pkg/validator"
+	"github.com/syamsulhudauul/cats-social-service/internal/pkg/converter"
+	"github.com/syamsulhudauul/cats-social-service/internal/pkg/validator"
 	"go.uber.org/zap"
 	"net/http"
 	"net/url"
@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/model"
-	cerror "github.com/thoriqulumar/cats-social-service-w1/internal/pkg/error"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/model"
+	cerror "github.com/syamsulhudauul/cats-social-service/internal/pkg/error"
 )
 
 func (s *Service) RegisterCat(ctx context.Context, data model.Cat, userId int64) (model.Cat, error) {

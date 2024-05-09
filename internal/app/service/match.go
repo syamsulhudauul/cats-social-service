@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/model"
-	cerror "github.com/thoriqulumar/cats-social-service-w1/internal/pkg/error"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/model"
+	cerror "github.com/syamsulhudauul/cats-social-service/internal/pkg/error"
 	"go.uber.org/zap"
 )
 

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/config"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/model"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/service/mocks"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/config"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/model"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/service/mocks"
 	"go.uber.org/zap"
 	"testing"
 )

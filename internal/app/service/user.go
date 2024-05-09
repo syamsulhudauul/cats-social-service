@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/thoriqulumar/cats-social-service-w1/internal/app/model"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/pkg/email"
-	cerror "github.com/thoriqulumar/cats-social-service-w1/internal/pkg/error"
-	"github.com/thoriqulumar/cats-social-service-w1/internal/pkg/jwt"
+	"github.com/syamsulhudauul/cats-social-service/internal/app/model"
+	"github.com/syamsulhudauul/cats-social-service/internal/pkg/email"
+	cerror "github.com/syamsulhudauul/cats-social-service/internal/pkg/error"
+	"github.com/syamsulhudauul/cats-social-service/internal/pkg/jwt"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
 )
