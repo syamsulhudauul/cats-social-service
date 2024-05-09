@@ -37,6 +37,21 @@ func (m *Mockrepository) EXPECT() *MockrepositoryMockRecorder {
 	return m.recorder
 }
 
+// CreateCat mocks base method.
+func (m *Mockrepository) CreateCat(ctx context.Context, data model.Cat) (model.Cat, error) {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "CreateCat", ctx, data)
+	ret0, _ := ret[0].(model.Cat)
+	ret1, _ := ret[1].(error)
+	return ret0, ret1
+}
+
+// CreateCat indicates an expected call of CreateCat.
+func (mr *MockrepositoryMockRecorder) CreateCat(ctx, data interface{}) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "CreateCat", reflect.TypeOf((*Mockrepository)(nil).CreateCat), ctx, data)
+}
+
 // CreateUser mocks base method.
 func (m *Mockrepository) CreateUser(ctx context.Context, data model.User) (model.User, error) {
 	m.ctrl.T.Helper()
@@ -243,21 +258,6 @@ func (m *Mockrepository) MatchCat(ctx context.Context, data model.MatchRequest, 
 func (mr *MockrepositoryMockRecorder) MatchCat(ctx, data, issuedId, receiverID interface{}) *gomock.Call {
 	mr.mock.ctrl.T.Helper()
 	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "MatchCat", reflect.TypeOf((*Mockrepository)(nil).MatchCat), ctx, data, issuedId, receiverID)
-}
-
-// PostCat mocks base method.
-func (m *Mockrepository) PostCat(ctx context.Context, args []interface{}) (model.Cat, error) {
-	m.ctrl.T.Helper()
-	ret := m.ctrl.Call(m, "PostCat", ctx, args)
-	ret0, _ := ret[0].(model.Cat)
-	ret1, _ := ret[1].(error)
-	return ret0, ret1
-}
-
-// PostCat indicates an expected call of PostCat.
-func (mr *MockrepositoryMockRecorder) PostCat(ctx, args interface{}) *gomock.Call {
-	mr.mock.ctrl.T.Helper()
-	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "PostCat", reflect.TypeOf((*Mockrepository)(nil).PostCat), ctx, args)
 }
 
 // PutCat mocks base method.
