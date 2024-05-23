@@ -3,7 +3,7 @@ version: '3.8'
 services:
   db:
     image: postgres:latest
-    container_name: postgres_container
+    container_name: cat_social_postgres
     ports:
       - "5433:5432"
     environment:
